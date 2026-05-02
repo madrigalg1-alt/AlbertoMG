@@ -7,7 +7,7 @@ public class Main {
             System.out.println("Introduzca el número desde donde quiere iniciar la cuenta atrás");
             int superior = sc.nextInt();
             System.out.println("Intruduzca el número donde quiere que se detenga la cuenta atrásssss");
-            int bajo = sc.nextInt();// Ahora hacemos un commit desde aquí
+            int bajo = sc.nextInt();// Ahora hacemos un commit desde aquí //CONFLICTO
             for (int i = superior; i >=bajo ; i--) {
                 System.out.println(i);
 
